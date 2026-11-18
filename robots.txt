@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://afshin-ir.github.io/libreoffice/sitemap.xml

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>پاک‌نویس و گیت‌هاب | لیبره‌آفیس فارسی</title>
+<meta name="description" content="اولین نسخهٔ ماکروی پاک‌نویس را روی گیت‌هاب منتشر کردم. در این مدت، برخی اشکالات کد قبلی را برطرف کردم و قابلیت مهم گزینش اصلاحات را هم اضافه کردم. امیدوارم انتشار ماکرو بر بستر گیت‌هاب باعث جلب مشاکت علاقه‌مندان شود و در">
+<link rel="stylesheet" href="/libreoffice/assets/style.css">
+<link rel="icon" href="/libreoffice/assets/icon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="/libreoffice/"><span class="brand-mark">L</span><span><b>لیبره‌آفیس فارسی</b><small>یادداشت‌ها، آموزش‌ها و تجربه‌ها</small></span></a><nav><a href="/libreoffice/">خانه</a><a href="/libreoffice/blog/">همهٔ مطالب</a></nav></div></header>
+<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>پاک‌نویس و گیت‌هاب</h1><div class="article-meta"><time>2025-10-10</time><span>نویسنده: afshin</span></div><div><span class="tag">افزونه‌ها</span><span class="tag">واژه‌پرداز</span></div><div class="article-content">اولین نسخهٔ ماکروی پاک‌نویس را <a href="https://github.com/afshin-ir/paknevis">روی گیت‌هاب</a> منتشر کردم.
+در این مدت، برخی اشکالات کد قبلی را برطرف کردم و قابلیت مهم <span style="text-decoration: underline;">گزینش اصلاحات</span> را هم اضافه کردم.
+
+<img class="aligncenter size-full wp-image-2736" title="پنجرهٔ گزینش اصلاح‌ها" src="/libreoffice/blog/wp-content/uploads/2025/10/2025-10-10-13-38.jpg" alt="پنجرهٔ گزینش اصلاح‌ها" width="931" height="673" data-popupalt-original-title="null" />
+
+امیدوارم انتشار ماکرو بر بستر گیت‌هاب باعث جلب مشاکت علاقه‌مندان شود و در آینده‌ای نزدیک این ماکرو در نهایت به یک افزونهٔ قابل نصب تبدیل شود.
+<h1>چطور از این ماکرو استفاده کنیم؟</h1>
+جدیدترین نسخهٔ ماکرو را که فایلی با پسوند <span style="text-decoration: underline;">deb</span> است، از <a href="https://github.com/afshin-ir/paknevis/releases">اینجا</a> دریافت کنید و نصبش کنید. پس از نصب، ۳ فایل در شاخهٔ کاربر خانگی و در مسیری مانند مسیر زیر کپی می‌شوند.
+<p dir="ltr"><code>/home/afshin/.config/libreoffice/4/user/Scripts/python/</code></p>
+این ۳ فایل چی هستند؟
+یکی فایلی با نام PAKNEVIS.py که ماکروی پاک‌نویس است و تقریباً همه‌کار با اوست.
+فایل بعدی فایلی با نام DocumentList.json است و بانک لغاتی است که ماکرو از آن برای تصحیح غلط‌های املایی استفاده می‌کند و آخرین فایل هم فایلی است با نام TextFixer.conf که تنظیمات پنجرهٔ «گزینش اصلاح‌ها» را در خودش ذخیره می‌کند.
+
+حالا به مسیر زیر بروید و ماکرو را مطابق شکل زیر اجرا کنید:
+<p dir="ltr">Tools → Macros... → Run Macro</p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2774" title="پنجرهٔ انتخاب ماکرو" src="/libreoffice/blog/wp-content/uploads/2025/10/2025-10-28-14-29.jpg" alt="پنجرهٔ انتخاب ماکرو" width="603" height="624" data-popupalt-original-title="null" /></p>
+&nbsp;
+<div id="translate-it-host-iframe"></div></div><section class="comments"><h2>دیدگاه‌های ثبت‌شده</h2><p class="content-warning">این دیدگاه‌ها از نسخهٔ پیشین وبلاگ نگه‌داری شده‌اند؛ امکان ثبت دیدگاه تازه در این سایت استاتیکی وجود ندارد.</p><article class="comment"><div class="comment-head"><b>مهدی امانی</b><time>2025-11-19</time></div><div class="comment-body">بسیار خوب خداقوت
+من دو تا مشکل باهاش داشتم. اول اینکه تمام شماره‌های پانوشت را به بزرگ می‌کرد. یعنی مثلا اگر بعد از کلمه‌ای شماره پانوشت کوچک نوشته می‌شود بعد از اصلاحات عدد را بزرگ می‌کند و لینک آن را هم حذف می‌کند.
+دوم هم اینکه اعداد انگلیسی که در بخش انگلیسی متن هستند را خوب است تشخیص بدهد و تغییر ندهد. برای متونی که فارسی و انگلیسی در آن هست.</div></article><article class="comment"><div class="comment-head"><b>علاقمند به لیبره آفیس</b><time>2025-10-14</time></div><div class="comment-body">سلام
+خدا قوت 
+در ویندوز - نسخه قابل حمل مسیر اینه: 
+App\libreoffice\share\Scripts\python
+اینها هم می تونست ادامه پیدا کنه که نکرد... 
+https://sourceforge.net/projects/virastyar
+https://github.com/mehrdad-seno/virastyar</div></article><article class="comment"><div class="comment-head"><b>افشین</b><time>2025-11-20</time></div><div class="comment-body">ممنونم که بررسی کردید و بازخورد دادید.
+متأسفانه خودم نتوانستم مشکل را حل کنم، اما مشکل را در گیت‌هاب در گزارش‌های جداگانه‌ای ثبت کردم. امیدوارم کسی برای حل آن‌ها داوطلب بشود.
+
+https://github.com/afshin-ir/paknevis/issues/12
+https://github.com/afshin-ir/paknevis/issues/13</div></article></section></article></main>
+<footer class="site-footer"><a href="/libreoffice/">لیبره‌آفیس فارسی</a><span>بازنشر استاتیکیِ نوشته‌های وبلاگ</span></footer>
+</body></html>

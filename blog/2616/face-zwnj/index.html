@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>نیم‌فاصله‌های کاذب | لیبره‌آفیس فارسی</title>
+<meta name="description" content="یکی از چالش‌های متون فارسی وجود نیم‌فاصله‌های کاذب است. ظاهری شبیه به نیم‌فاصله دارند، اما در حقیقت نویسه‌های دیگری هستند. این نویسه‌ها خصوصاً وقتی از یک سند به سند دیگری کپی می‌شوند، می‌توانند باعث نمایش نادرست متن، به‌">
+<link rel="stylesheet" href="/libreoffice/assets/style.css">
+<link rel="icon" href="/libreoffice/assets/icon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="/libreoffice/"><span class="brand-mark">L</span><span><b>لیبره‌آفیس فارسی</b><small>یادداشت‌ها، آموزش‌ها و تجربه‌ها</small></span></a><nav><a href="/libreoffice/">خانه</a><a href="/libreoffice/blog/">همهٔ مطالب</a></nav></div></header>
+<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>نیم‌فاصله‌های کاذب</h1><div class="article-meta"><time>2025-08-25</time><span>نویسنده: afshin</span></div><div><span class="tag">واژه‌پرداز</span></div><div class="article-content"><img class="aligncenter wp-image-2630 size-full" title="نیم‌فاصله‌های کاذب" src="/libreoffice/blog/wp-content/uploads/2025/08/2025-08-25-15-17.jpg" alt="نیم‌فاصلهٔ کاذب" width="793" height="458" data-popupalt-original-title="null" />
+
+یکی از چالش‌های متون فارسی وجود نیم‌فاصله‌های کاذب است. ظاهری شبیه به نیم‌فاصله دارند، اما در حقیقت نویسه‌های دیگری هستند.
+این نویسه‌ها خصوصاً وقتی از یک سند به سند دیگری کپی می‌شوند، می‌توانند باعث نمایش نادرست متن، به‌هم‌ریختگی خطوط و مشکلاتی در جست‌وجوی محتوا شوند.
+
+در واژه‌پرداز لیبره‌آفیس با کمک عبارت‌های باقاعده می‌شود همهٔ آن‌ها را یافت، اما استفاده از آن زحمت‌های خاص خودش را دارد. بنابراین با کمک هوش مصنوعی یک ماکروی پایتون ساختم که همان کار را بی‌دردسر و بدون خطا انجام بدهد.
+این ماکرو همهٔ نیم‌فاصله‌های کاذب (که ۷ تا هستند) را پیدا و اصلاحشان می‌کند. در پایان کارش هم یک گزارش از نتیجهٔ اصلاحاتش می‌دهد.
+
+1. Soft Hyphen (SHY) ← کد یونیکد: U+00AD
+2. Not Sign ← کد یونیکد: U+00AC
+3. Right-to-Left Mark (RLM) ← کد یونیکد: U+200F
+4. Four-Per-Em Space ← کد یونیکد: U+2005
+5. Zero Width No-Break Space (BOM, ZWNBSP) ← کد یونیکد: U+FEFF
+6. Zero Width Space (ZWSP) ← کد یونیکد: U+200B
+7. Zero Width Joiner (ZWJ) ← کد یونیکد: U+200D
+
+📥 ماکرو را می‌توانید از <a href="https://paste.ubuntu.com/p/W5drGnWR7s/">اینجا</a> یا <a href="https://paste.ubuntu-ir.org/naa">اینجا</a> دریافت کنید.</div></article></main>
+<footer class="site-footer"><a href="/libreoffice/">لیبره‌آفیس فارسی</a><span>بازنشر استاتیکیِ نوشته‌های وبلاگ</span></footer>
+</body></html>

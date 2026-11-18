@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>جمع بزن اگر | لیبره‌آفیس فارسی</title>
+<meta name="description" content="این آموزش اصول اولیهٔ توابع SUMIF و SUMIFS را در صفحه‌گستردهٔ لیبره‌آفیس توضیح می‌دهد. SUMIF تابع SUMIF مجموع مقادیر را از یک محدوده/فهرست از سلول‌ها بر اساس یک شرط برمی‌گرداند. برای مثال، اگر فهرستی از اعداد در صفحه‌گست">
+<link rel="stylesheet" href="/libreoffice/assets/style.css">
+<link rel="icon" href="/libreoffice/assets/icon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="/libreoffice/"><span class="brand-mark">L</span><span><b>لیبره‌آفیس فارسی</b><small>یادداشت‌ها، آموزش‌ها و تجربه‌ها</small></span></a><nav><a href="/libreoffice/">خانه</a><a href="/libreoffice/blog/">همهٔ مطالب</a></nav></div></header>
+<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>جمع بزن اگر</h1><div class="article-meta"><time>2024-01-29</time><span>نویسنده: afshin</span></div><div><span class="tag">صفحه‌گسترده</span></div><div class="article-content"><strong>این آموزش اصول اولیهٔ توابع SUMIF و SUMIFS را در صفحه‌گستردهٔ لیبره‌آفیس توضیح می‌دهد.</strong>
+<h1><span style="color: #ff0000;">SUMIF</span></h1>
+تابع SUMIF مجموع مقادیر را از یک محدوده/فهرست از سلول‌ها بر اساس یک شرط برمی‌گرداند. برای مثال، اگر فهرستی از اعداد در صفحه‌گسترده دارید و می‌خواهید فقط مقادیر کمتر از 20 را جمع کنید، می‌توانید از تابع SUMIF استفاده کنید. برای مثال در فرمول زیر گفته‌ایم که در محدودهٔ سلول‌های A1 تا A6 فقط اعداد کوچک‌تر از ۲۰ را جمع بزن:
+<p dir="ltr"><strong>=SUMIF(A1:A6,"&lt;20”)</strong></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2172" title="=SUMIF(A1:A6,&quot;&lt;20”)" src="/libreoffice/blog/wp-content/uploads/2024/01/01.webp" alt="=SUMIF(A1:A6,&quot;&lt;20”)" width="358" height="186" data-popupalt-original-title="null" /></p>
+همچنین می‌توانید مقدار معیار، یعنی 20 را در یک سلول بنویسید و از مرجع سلول در فرمول SUMIF مانند مثال زیر استفاده کنید. همان نتیجهٔ بالا را می دهد.
+<p dir="ltr"><strong>=SUMIF(A1:A6,"&lt;"&amp;E1)</strong></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2173" title="=SUMIF(A1:A6,&quot;&lt;&quot;&amp;E1)" src="/libreoffice/blog/wp-content/uploads/2024/01/02.webp" alt="=SUMIF(A1:A6,&quot;&lt;&quot;&amp;E1)" width="521" height="185" data-popupalt-original-title="null" /></p>
+دستور SUMIF می تواند سه آرگومان بگیرد که بر اساس معیارهایی که در یک محدوده مطابقت دارند، می توانید محدودهٔ دیگری را جمع بزنید. در مثال زیر، 10 را در A1 تا A6 جست‌وجو می‌کند و در صورت یافتن مطابقت، مبالغ مربوطه را از محدوده B1 تا B6 برمی‌گرداند.
+<p dir="ltr"><strong>=SUMIF(A1:A6,10,B1:B6)</strong></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2174" title="=SUMIF(A1:A6,10,B1:B6)" src="/libreoffice/blog/wp-content/uploads/2024/01/03.webp" alt="=SUMIF(A1:A6,10,B1:B6)" width="438" height="190" data-popupalt-original-title="null" /></p>
+به همین روش، می توانید مقدار 10 را در هر سلولی قرار دهید و از مرجع سلول در فرمول بالا استفاده کنید.
+
+همچنین می توانید متن‌ها را به روشی مشابه جست‌وجو کنید و مجموع را برگردانید.
+
+مثال زیر کلمهٔ apple را در محدوده A1:A6 جست‌وجو می‌کند و مجموع ورودی‌های منطبق را از محدودهٔ مجموع مربوطه برمی‌گرداند.
+<p dir="ltr"><strong>=SUMIF(A1:A6,"apple",B1:B6)</strong></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2175" title="=SUMIF(A1:A6,&quot;apple&quot;,B1:B6)" src="/libreoffice/blog/wp-content/uploads/2024/01/04.webp" alt="=SUMIF(A1:A6,&quot;apple&quot;,B1:B6)" width="437" height="171" data-popupalt-original-title="null" /></p>
+با استفاده از شرط زیر، می توانید مقادیری را که برابر با یک متن/رشتهٔ خاص نیستند، جمع بزنید. عملگر NOT &lt;&gt; است. لطفاُ دقت کنید که عملگر &lt;&gt; در داخل متن با " بیاید.
+<p dir="ltr"><strong>=SUMIF(A1:A6,"&lt;&gt;apple",B1:B6)</strong></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2176" title="=SUMIF(A1:A6,&quot;&lt;&gt;apple&quot;,B1:B6)" src="/libreoffice/blog/wp-content/uploads/2024/01/05.webp" alt="=SUMIF(A1:A6,&quot;&lt;&gt;apple&quot;,B1:B6)" width="441" height="170" data-popupalt-original-title="null" /></p>
+برای جست‌وجو با استفاده از یک نویسهٔ Wild Card، می توانید در شرط  از ? استفاده کنید. برای مثال اگر می‌خواهید فقط رشته‌هایی را جمع بزنید که با <em>apple4</em> مطابقت دارند و نه <em>apple10</em> یا <em>apple </em>از مثال زیر استفاده کنید.
+<p dir="ltr"><strong>=SUMIF(A1:A6,"apple?",B1:B6)</strong></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2177" title="=SUMIF(A1:A6,&quot;apple?&quot;,B1:B6)" src="/libreoffice/blog/wp-content/uploads/2024/01/06.webp" alt="=SUMIF(A1:A6,&quot;apple?&quot;,B1:B6)" width="438" height="171" data-popupalt-original-title="null" /></p>
+همچنین می‌توانید از Wild Card ستاره (*) برای جست‌وجوی هر تعداد نویسه (کاراکتر) در محدودهٔ سلول‌ها استفاده کنید و مجموع را با استفاده از SUMIF برگردانید. مثال زیر تمام سلول‌های منطبق را که در آن کلمهٔ <em>apple</em> یافت می‌شود جمع می‌زند.
+<p dir="ltr"><strong>=SUMIF(A1:A6,"*apple*",B1:B6)</strong></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2178" title="=SUMIF(A1:A6,&quot;*apple*&quot;,B1:B6)" src="/libreoffice/blog/wp-content/uploads/2024/01/07.webp" alt="=SUMIF(A1:A6,&quot;*apple*&quot;,B1:B6)" width="436" height="173" data-popupalt-original-title="null" /></p>
+
+<h1><span style="color: #ff0000;">SUMIFS</span></h1>
+می‌توانید از SUMIFS برای محدوده‌های چندمعیاره برای جمع بستن مقادیر استفاده کنید. SUMIFS آرگومان اول را به‌عنوان محدوده‌ای که باید جمع زده شود و مجموعه‌معیارهای بعدی را طبق مثال‌های بالا در نظر می‌گیرد. در مثال زیر، زمانی که فروش کمتر یا مساوی 20 باشد و و نام محصول با <em>pen</em> شروع بشود، مجموع درآمد را برمی‌گرداند.
+<p dir="ltr"><strong>=SUMIFS(C2:C6,A2:A6,"pen*",B2:B6,"&lt;=20")</strong></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2179" title="=SUMIFS(C2:C6,A2:A6,&quot;pen*&quot;,B2:B6,&quot;&lt;=20&quot;)" src="/libreoffice/blog/wp-content/uploads/2024/01/08.webp" alt="=SUMIFS(C2:C6,A2:A6,&quot;pen*&quot;,B2:B6,&quot;&lt;=20&quot;)" width="531" height="190" data-popupalt-original-title="null" /></p>
+
+<h2>چند نکته:</h2>
+<ul>
+ 	<li>شرایط SUMIFS به عنوان AND ارزیابی می‌شود و مجموع تنها زمانی برگردانده می‌شود که همهٔ شرایط برآورده شوند.</li>
+ 	<li>محدودهٔ شرایط SUMIFS باید با طول یکسان باشد.</li>
+ 	<li>شما می‌توانید حداکثر ۱۲۷ جفت شرط را در SUMIFS تعیین کنید.</li>
+</ul></div></article></main>
+<footer class="site-footer"><a href="/libreoffice/">لیبره‌آفیس فارسی</a><span>بازنشر استاتیکیِ نوشته‌های وبلاگ</span></footer>
+</body></html>

@@ -9,17 +9,17 @@
 </head>
 <body>
 <header class="site-header"><div class="header-inner"><a class="brand" href="/libreoffice/"><span class="brand-mark">L</span><span><b>لیبره‌آفیس فارسی</b><small>یادداشت‌ها، آموزش‌ها و تجربه‌ها</small></span></a><nav><a href="/libreoffice/">خانه</a><a href="/libreoffice/blog/">همهٔ مطالب</a></nav></div></header>
-<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>تابع بشمار اگر (قسمت دوم)</h1><div class="article-meta"><time>2024-02-06</time><span>نویسنده: afshin</span></div><div><span class="tag">صفحه‌گسترده</span></div><div class="article-content"><img class="aligncenter size-full wp-image-2222" title="تابع COUNTIF" src="/libreoffice/blog/wp-content/uploads/2024/02/photo_2024-02-02_07-42-59.jpg" alt="تابع COUNTIF" width="1200" height="675" data-popupalt-original-title="null" />
+<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>تابع بشمار اگر (قسمت دوم)</h1><div class="article-meta"><time>2024-02-06</time><span>نویسنده: afshin</span></div><div><span class="tag">صفحه‌گسترده</span></div><div class="article-content"><img class="aligncenter size-full wp-image-2222" title="تابع COUNTIF" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/photo_2024-02-02_07-42-59.jpg" alt="تابع COUNTIF" width="1200" height="675" data-popupalt-original-title="null" />
 
 در <a href="/libreoffice/blog/2210">آموزش قبل</a> گفتیم که چطور با استفاده از تابع COUNTIF در یک سلول یا در محدوده‌ای از سلول‌ها اعداد مدنظرمان را شمارش کنیم و در این آموزش می‌خواهیم به‌جای شمارش اعداد، کلمات مدنظرمان را شمارش کنیم.
 <!--more-->
 
 مثال زیر تعداد دفعاتی را که کلمهٔ <strong>apple</strong> در محدودهٔ سلول‌های A1 تا A10 وارد شده است می‌شمارد:
 <p dir="ltr"><strong>=COUNTIF(A:A10;D1)</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2226" title="شمارش سادهٔ متن" src="/libreoffice/blog/wp-content/uploads/2024/02/count-text-simple.webp" alt="شمارش سادهٔ متن" width="452" height="296" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2226" title="شمارش سادهٔ متن" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/count-text-simple.webp" alt="شمارش سادهٔ متن" width="452" height="296" data-popupalt-original-title="null" /></p>
 مثال زیر ترکیبی از اعداد و متن را دارد. اگر می‌خواهید ردیف‌ها را فقط با متن بشمارید، می‌توانید از فرمول زیر استفاده کنید.
 <p dir="ltr"><strong>=COUNTIF(A1:A10;"*")-COUNT(A1:A10)</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2227" title="فقط متن را بشمار" src="/libreoffice/blog/wp-content/uploads/2024/02/count-only-text.webp" alt="فقط متن را بشمار" width="535" height="291" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2227" title="فقط متن را بشمار" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/count-only-text.webp" alt="فقط متن را بشمار" width="535" height="291" data-popupalt-original-title="null" /></p>
 از ظابطهٔ زیر برای شمارش تمام سلول‌هایی که با هر متنی می‌تواند شروع بشود، استفاده کنید (مثلاً «apple»).
 <p dir="ltr"><strong>=COUNTIF(A1:A10,"apple*")</strong></p>
 از ظابطهٔ زیر برای شمارش تمام سلول‌های دارای متن که حاوی هر رشتهٔ منطبق باشند استفاده کنید (مثلاً "apple").

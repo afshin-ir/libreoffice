@@ -9,7 +9,7 @@
 </head>
 <body>
 <header class="site-header"><div class="header-inner"><a class="brand" href="/libreoffice/"><span class="brand-mark">L</span><span><b>لیبره‌آفیس فارسی</b><small>یادداشت‌ها، آموزش‌ها و تجربه‌ها</small></span></a><nav><a href="/libreoffice/">خانه</a><a href="/libreoffice/blog/">همهٔ مطالب</a></nav></div></header>
-<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>تابع بشمار اگر (قسمت اول)</h1><div class="article-meta"><time>2024-02-02</time><span>نویسنده: afshin</span></div><div><span class="tag">صفحه‌گسترده</span></div><div class="article-content"><img class="aligncenter size-full wp-image-2222" title="تابع COUNTIF" src="/libreoffice/blog/wp-content/uploads/2024/02/photo_2024-02-02_07-42-59.jpg" alt="تابع COUNTIF" width="1200" height="675" data-popupalt-original-title="null" />
+<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>تابع بشمار اگر (قسمت اول)</h1><div class="article-meta"><time>2024-02-02</time><span>نویسنده: afshin</span></div><div><span class="tag">صفحه‌گسترده</span></div><div class="article-content"><img class="aligncenter size-full wp-image-2222" title="تابع COUNTIF" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/photo_2024-02-02_07-42-59.jpg" alt="تابع COUNTIF" width="1200" height="675" data-popupalt-original-title="null" />
 
 <strong>این آموزش راه‌های مختلفی را توضیح می‌دهد که تابع COUNTIF در صفحه‌گستردهٔ لیبره‌آفیس می‌تواند برای شمارش اعداد از یک سلول، محدوده، ردیف‌ها، ستون‌ها و غیره استفاده شود.</strong>
 
@@ -17,29 +17,29 @@
 
 در مثال زیر تعداد دفعاتی که عدد 20 در محدودهٔ سلول‌های A1 تا A7 وجود دارد، شمرده می‌شود که جواب ۲ بار است.
 <p dir="ltr"><strong>=COUNTIF(A1:A7;20)</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2211" title="شمارش عدد در محدوده‌ای از سلول‌ها" src="/libreoffice/blog/wp-content/uploads/2024/02/count-numbers-1.webp" alt="شمارش عدد در محدوده‌ای از سلول‌ها" width="453" height="242" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2211" title="شمارش عدد در محدوده‌ای از سلول‌ها" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/count-numbers-1.webp" alt="شمارش عدد در محدوده‌ای از سلول‌ها" width="453" height="242" data-popupalt-original-title="null" /></p>
 شما می‌توانید عدد 20 را به‌جای اینکه داخل فرمول بگذارید و فرمول را شلوغ کنید، داخل یک سلول (مثلاً D1) بگذارید و در فرمولتان فقط به آن سلول ارجاع بدهید:
 <p dir="ltr"><strong>=COUNTIF(A1:A7;D1)</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2218" title="بشمار اگر در سلول..." src="/libreoffice/blog/wp-content/uploads/2024/02/count-numbers-2.webp" alt="بشمار اگر در سلول..." width="453" height="242" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2218" title="بشمار اگر در سلول..." src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/count-numbers-2.webp" alt="بشمار اگر در سلول..." width="453" height="242" data-popupalt-original-title="null" /></p>
 تابع COUNTIF همچنین می‌تواند با استفاده از عملگرهای منطقی شمارش کند. در مثال زیر، اگر نیاز به شمارش تعداد سطرهایی با مقادیر بیشتر از 20 داشته باشیم، از فرمول زیر استفاده کنید. دقت کنید که عملگر «بزرگتر از» باید به‌عنوان یک رشته استفاده شود (یعنی بین دو نقلِ‌قول).
 <p dir="ltr"><strong>=COUNTIF(A1:A7;"&gt;"&amp;D1)</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2213" title="بشمار اگر بزرگ‌تر از ۱ بود" src="/libreoffice/blog/wp-content/uploads/2024/02/countif-greater-than-1.webp" alt="بشمار اگر بزرگ‌تر از ۱ بود" width="453" height="243" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2213" title="بشمار اگر بزرگ‌تر از ۱ بود" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/countif-greater-than-1.webp" alt="بشمار اگر بزرگ‌تر از ۱ بود" width="453" height="243" data-popupalt-original-title="null" /></p>
 لازم نیست که عدد 20 را حتماً داخل یک سلول مستقل بگذارید. توی خود فرمول هم می‌تواند باشد. یعنی مثل فرمول زیر:
 <p dir="ltr"><strong>COUNTIF(A1:A7;"&gt;20")</strong></p>
 از علامت «کوچک‌تر از» برای یافتن تعداد ردیف‌های کمتر از مقدار مشخص‌شده استفاده کنید.
 <p dir="ltr"><strong>=COUNTIF(A1:A7;"&lt;"&amp;D1)</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2214" title="بشمار اگر کوچک‌تر از ۱ بود" src="/libreoffice/blog/wp-content/uploads/2024/02/less-than.webp" alt="بشمار اگر کوچک‌تر از ۱ بود" width="455" height="239" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2214" title="بشمار اگر کوچک‌تر از ۱ بود" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/less-than.webp" alt="بشمار اگر کوچک‌تر از ۱ بود" width="455" height="239" data-popupalt-original-title="null" /></p>
 و به همین قیاس از علامت &lt;&gt; برای پیدا کردن تعداد ردیف‌هایی که با مقدار مشخص‌شده برابر نیستند استفاده کنید.
 <p dir="ltr"><strong>=COUNTIF(A1:A7;"&lt;&gt;"&amp;D1)</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2215" title="بشمار اگر برابر نبودند" src="/libreoffice/blog/wp-content/uploads/2024/02/not-equal.webp" alt="بشمار اگر برابر نبودند" width="455" height="241" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2215" title="بشمار اگر برابر نبودند" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/not-equal.webp" alt="بشمار اگر برابر نبودند" width="455" height="241" data-popupalt-original-title="null" /></p>
 در فرمول بالا همچنین می‌توانید از عملگرهای زیر استفاده کنید تا نتایج برابر، بزرگ‌تر از مساوی و کمتر از مساوی را به یک مقدار مشخص به دست آورید.
 <p dir="ltr"><strong>=, &gt;=, و &lt;=</strong></p>
 همچنین می‌توانید دو تابع COUNTIF را برای دستیابی به موارد بیشتر ترکیب کنید. مثال زیر تعداد سطرهایی را که 20 یا 10 است برمی‌گرداند.
 <p dir="ltr"><strong>=COUNTIF(A1:A7;"="&amp;D1)+COUNTIF(A1:A7;"="&amp;E1)</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2216" title="بشمار اگر یا..." src="/libreoffice/blog/wp-content/uploads/2024/02/count-OR.webp" alt="بشمار اگر یا..." width="619" height="242" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2216" title="بشمار اگر یا..." src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/count-OR.webp" alt="بشمار اگر یا..." width="619" height="242" data-popupalt-original-title="null" /></p>
 امکان استفاده از تابع دیگری در معیارهای COUNTIF نیز وجود دارد. مثال زیر مقادیر بزرگ‌تر از میانگین A1:A7، یعنی 32.7 را برمی‌گرداند.
 <p dir="ltr"><strong>=COUNTIF(A1:A7;"&gt;"&amp;AVERAGE(A1:A7))</strong></p>
-<p dir="ltr"><img class="aligncenter size-full wp-image-2212" title="شمارش با توابع دیگر" src="/libreoffice/blog/wp-content/uploads/2024/02/countif-using-another-function.webp" alt="شمارش با توابع دیگر" width="536" height="240" data-popupalt-original-title="null" /></p>
+<p dir="ltr"><img class="aligncenter size-full wp-image-2212" title="شمارش با توابع دیگر" src="https://libreoffice.ir/blog/wp-content/uploads/2024/02/countif-using-another-function.webp" alt="شمارش با توابع دیگر" width="536" height="240" data-popupalt-original-title="null" /></p>
 در آموزش بعدی دربارهٔ شمارش رشته‌ها خواهیم گفت.</div></article></main>
 <footer class="site-footer"><a href="/libreoffice/">لیبره‌آفیس فارسی</a><span>بازنشر استاتیکیِ نوشته‌های وبلاگ</span></footer>
 </body></html>

@@ -182,22 +182,8 @@
       <description>چرا روز آزادی اسناد اهمیت دارد؟ هر ساله، روز آزادی اسناد یادآور این ایدهٔ مهم و ارزشمند است که ما باید کنترل خود را بر داده‌هایمان حفظ کنیم. این کنترل شامل نحوهٔ ذخیره‌سازی، دسترسی، به‌اشتراک‌گذاری و حفظ قابلیت استفاده از داده‌ها در طول زمان است. در مرکز این مسئله، استانداردهای باز و فرمت‌هایی قرار دارند که بدون هیچ محدودیتی قابل خواندن، استفاده و توسعه هستن</description>
       <category>عمومی</category>
     </item>
-    <item>
-      <title>روز آزادی اسناد و لیبره‌آفیس</title>
-      <link>https://afshin-ir.github.io/libreoffice/blog/182.html</link>
-      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/182.html</guid>
-      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <description>چهارشنبه، ششم فروردین روز آزادی اسناد است و لیبره‌آفیس آن را جشن خواهد گرفت. در این روز، سه وبینار در ساعت‌های ۱۳ و ۱۸ و ۲۳ برگزار خواهد شد که در آن‌ها به تاریخچهٔ فرمت ODF و همچنین به اینکه چرا فرمت‌های استاندارد برای حاکمیت دیجیتال اهمیت به‌سزایی دارند، پرداخته خواهد شد. برای شرکت در وبینارها، می‌توانید به نشانی زیر متصل شوید: https://jitsi.documentfoundat</description>
-      <category>عمومی</category>
-    </item>
-    <item>
-      <title>حمایت آلمان از لیبره‌آفیس</title>
-      <link>https://afshin-ir.github.io/libreoffice/blog/181.html</link>
-      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/181.html</guid>
-      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
-      <description>ایالت شلسویگ-هولشتاین در آلمان در حال انتقال ۳۰,۰۰۰ کامپیوتر از مایکروسافت‌آفیس به لیبره‌آفیس است تا از این طریق وابستگی خود به غول‌های فناوری غیراروپایی را کاهش دهد. این اقدام به بهبود حاکمیت دیجیتال، دسترسی عمومی به کدهای نرم‌افزاری و تشویق سایر ادارات عمومی به پیروی از این الگو کمک می‌کند. رئیس دفتر دولتی این ایالت نیز بر اهمیت استقلال فناوری و تأثیرگذاری</description>
-      <category>عمومی</category>
-    </item>
+    
+    
     <item>
       <title>حذف فاصله‌های اضافه</title>
       <link>https://afshin-ir.github.io/libreoffice/blog/180.html</link>
@@ -223,14 +209,7 @@
       <description>گمان نکنم در این عالَم انسان عاقلی پیدا بشود که دلش بخواهد کاری را که یک بار انجام شده و به سرانجام رسیده دوباره از همان اولش شروع بکند. اما این چه ربطی به نرم‌افزار آزاد لیبره‌آفیس دارد؟ یکی از قابلیت‌های مفید لیبره‌آفیس قابلیت تصحیح خودکار کلمات است. هر کاربری بسته به نیاز خود در طول زمان مجموعه‌ای از کلمات را در پایگاه دادهٔ این بخش از برنامه جمع‌آوری می‌</description>
       <category>ضعف‌های لیبره‌آفیس</category>
     </item>
-    <item>
-      <title>توابع مهم در لیبره‌آفیس ۲۴.۸</title>
-      <link>https://afshin-ir.github.io/libreoffice/blog/177.html</link>
-      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/177.html</guid>
-      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <description>نسخهٔ ۲۴.۸ لیبره‌آفیس تقریباً ۲ ماه دیگر منتشر می‌شود. به‌عنوان کاربری که بعد از واژه‌پرداز بیشترین استفاده را از صفحه‌گستردهٔ لیبره‌آفیس دارد خوشحالم که در این نسخه چند تابع (Function) مهم اضافه شده‌اند: یکی تابع XLOOKUP و دیگری XMATCH که هنوز نیامده راهنمای برخطشان هم آمادده شده است! علاوه بر این، توابع FILTER , RANDARRAY , SEQUENCE , SORT , SORTBY , UNIQU</description>
-      <category>صفحه‌گسترده</category>
-    </item>
+    
     <item>
       <title>لیبره‌آفیس و دردسرهای فونت‌های برنارایانه</title>
       <link>https://afshin-ir.github.io/libreoffice/blog/176.html</link>

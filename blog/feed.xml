@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>وبلاگ لیبره‌آفیس فارسی</title>
+    <link>https://afshin-ir.github.io/libreoffice/blog/</link>
+    <description>نوشته‌های فارسی دربارهٔ لیبره‌آفیس، با راهنماها و تجربه‌های کاربردی.</description>
+    <language>fa-IR</language>
+    <lastBuildDate>Thu, 19 Nov 2026 08:05:21 +0000</lastBuildDate>
+    <generator>وبلاگ استاتیکی لیبره‌آفیس فارسی</generator>
+    <atom:link href="https://afshin-ir.github.io/libreoffice/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>دستورخط، افزونه‌ای برای رعایت رسم‌الخط مرجّح فرهنگستان</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/203.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/203.html</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description>دستورخط افزونه‌ای برای لیبره‌آفیس است که صورت‌های نامرجّح واژه‌ها را تشخیص می‌دهد و دلیل ترجیح صورت مرجّح را توضیح می‌دهد. این افزونه بر پایهٔ کار آقای مصطفی صداقت‌جو و با افزودن قواعد ویراست دوم کتاب دستور خط فارسی فرهنگستان ساخته شده است.</description>
+      <category>افزونه‌ها</category>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>افزونهٔ قابل‌نصب پاک‌نویس برای لیبره‌آفیس منتشر شد</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/202.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/202.html</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <description>از روزی که ماکروی پاک‌نویس را منتشر کردم، تقریباً یک سال گذشته است. در این مدت بارها تلاش کردم ماکرو را به افزونه‌ای برای واژه‌پرداز لیبره‌آفیس تبدیل کنم، اما هر بار کار به مانعی خورد و من هر بار که با امیدی دوباره سراغش می‌رفتم، ناامید برمی‌گشتم. تا امروز، که همهٔ آن تلاش‌های توأم با شکست، به کامیابی انجامید و افزونهٔ قابلِ‌نصب پاک‌نویس بالاخره برای لیبره‌آفیس ساخته شد. 😊 حاصل این تلاش‌ها افزونه‌ای است که می‌شود آن را به‌سادگیِ تمام نصب کرد، اصلاح‌های دلخواه را در پنجرهٔ تنظیمات انتخاب کرد و روی بخش انتخاب‌شده یا سراسر سند اجرا کرد. در پایان هم گزارشی از نتیجه و شمار اصلاح‌ها نمایش داده می‌شود.</description>
+      <category>افزونه‌ها</category>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>بهبود پشتیبانی از فارسی در لیبره‌آفیس ۲۶.۸</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/201.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/201.html</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <description>نسخهٔ ۲۶.۸ لیبره‌آفیس که در ۲۶ اوت ۲۰۲۶ (۴ شهریور ۱۴۰۵) منتشر شد، علاوه بر مجموعه‌ای از قابلیت‌ها و بهبودهای عمومی، چند تغییر مهم در پشتیبانی از زبان‌های راست به چپ و متن‌های دوجهته به همراه دارد؛ تغییراتی که برای کاربران زبان‌هایی مانند فارسی و عربی اهمیت ویژه‌ای دارند. یکی از مهم‌ترین این تغییرات، تشخیص خودکار جهت پاراگراف است. از این پس هنگام باز کردن سند</description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>جامعهٔ پویا و نرم‌افزارِ آزاد</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/200.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/200.html</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      <description>یکی از دستاوردهای مهم نرم‌افزار آزاد، شکل‌گیری جامعه‌ای پویا از کاربران است؛ جامعه‌ای که در آن پرسش و پاسخ، انتقال تجربه و حل مسئله به‌صورت جمعی انجام می‌شود. لیبره‌آفیس نمونه‌ای روشن از همین فرهنگ مشارکتی است؛ جایی که تجربهٔ یک کاربر می‌تواند راه‌گشای مشکل کاربران دیگر باشد. برای مثال این یادداشت آموزشی در اصل از یک پرسش ساده شروع شد. مسئله‌ای که یکی از کار</description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>چالش شمارش کلمات در لیبره‌آفیس</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/199.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/199.html</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <description>در نگارش مقالات علمی، پایان‌نامه‌ها یا متونی که دارای محدودیت تعداد کلمات هستند، نویسندگان اغلب با یک چالش رایج مواجه می‌شوند: آیا محتوای پانویس‌ها، پی‌نوشت‌ها و کادرهای متنی باید در شمارش کلمات لحاظ شوند یا خیر؟ ابزار شمارش کلمات لیبره‌آفیس متأسفانه انعطاف‌پذیری لازم را ندارد و تمامی متون موجود در سند را محاسبه می‌کند، از جمله: توضیحات اضافی در پانویس‌ها ار</description>
+      <category>ضعف‌های لیبره‌آفیس</category>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>تکرار سربرگ‌ها در زمان چاپ</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/198.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/198.html</guid>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <description>در صفحه‌گسترده‌ها، سطرهای ابتدایی یک جدول نقش «سربرگ» را دارند و معمولاً در آن‌ها عنوان ستون‌ها یا توضیحات اصلی داده‌ها قرار می‌گیرد. زمانی که از داده‌های جدول چاپ (پرینت) می‌گیرید، اگر جدولی که باید چاپ شود بیش از یک صفحه باشد ، نبودِن این سربرگ‌ها در صفحات بعدی، خواندن و درک اطلاعات را دشوار می‌کند. برنامهٔ صفحه‌گستردهٔ لیبره‌آفیس در تنظیمات چاپ (پرینت)، ا</description>
+      <category>صفحه‌گسترده</category>
+    </item>
+    <item>
+      <title>شکل تزئینی و خوش‌نویسانهٔ حروف فارسی</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/197.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/197.html</guid>
+      <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
+      <description>در بسیاری از قلم‌های (فونت‌های) فارسی، حروف فقط یک شکل ندارند. گاهی طراح چند نسخهٔ جایگزین برای یک حرف می‌سازد؛ مثلاً «ک کلاسیک»، «ک مدرن»، «ک خوش‌نویسانه». این شکل‌های متفاوت در قالب بسته‌هایی به نام Stylistic Set (که معمولاً با ss01، ss02 و … مشخص می‌شوند) ارائه می‌شوند.فعال‌کردن هر Stylistic Set باعث می‌شود مجموعه‌ای از شکل‌های جایگزین به‌طور هماهنگ در مت</description>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>جدول جایگزینی قلم (فونت)</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/196.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/196.html</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <description>لیبره‌آفیس سال‌هاست قابلیت مفیدی به نام Font Replacement Table (جدول جایگزینی فونت) دارد. با این قابلیت می‌توان مشخص کرد که اگر فلان قلم در سیستم وجود نداشت، به‌جایش از قلم دیگری استفاده شود. برای مثال می‌توان تعیین کرد اگر در سندی از قلم غیرآزاد ایران‌سنس استفاده شده بود و این قلم روی سیستم نصب نبود، لیبره‌آفیس به‌جایش از یک قلم آزاد به‌عنوان جایگزین استفاد</description>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>پاک‌نویس و گیت‌هاب</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/195.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/195.html</guid>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <description>اولین نسخهٔ ماکروی پاک‌نویس را روی گیت‌هاب منتشر کردم. در این مدت، برخی اشکالات کد قبلی را برطرف کردم و قابلیت مهم گزینش اصلاحات را هم اضافه کردم. امیدوارم انتشار ماکرو بر بستر گیت‌هاب باعث جلب مشاکت علاقه‌مندان شود و در آینده‌ای نزدیک این ماکرو در نهایت به یک افزونهٔ قابل نصب تبدیل شود. چطور از این ماکرو استفاده کنیم؟ جدیدترین نسخهٔ ماکرو را که فایلی با پسو</description>
+      <category>افزونه‌ها</category>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>پیچیدگی مصنوعی در فایل‌های مایکروسافت‌آفیس</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/194.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/194.html</guid>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+      <description>فرمت OOXML که مایکروسافت برای فایل‌های آفیس استفاده می‌کند عمداً پیچیده طراحی شده است. این پیچیدگی هم نه به‌خاطر نیاز واقعی اسناد، بلکه برای سخت‌تر شدن سازگاری نرم‌افزارهای دیگر (از جمله لیبره‌آفیس) با این فرمت است! برای مثال در XLSX (فرمتی که صفحه‌گستردهٔ اکسل از آن استفاده می‌کند) داده‌ها تکه‌تکه و پراکنده در چند فایل مختلف نگه‌داری می‌شوند. مثلاً متن‌ها د</description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>افزونه‌ای مانند پاک‌نویس</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/193.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/193.html</guid>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <description>همیشه افسوس می‌خوردم که چرا واژه‌پرداز لیبره‌آفیس برای ویرایش‌های صوریِ متن افزونه‌ای مشابه پاک‌نویس ندارد و افسوسِ بیشتر اینکه داوطلبی هم برای پیاده‌سازی‌اش وجود نداشت. 😔 بعد از روی کار آمدن هوش مصنوعی، بی‌اغراق چند ماه همهٔ تلاشم را کردم و تمام راه‌های ممکن را رفتم تا بلکه با کمک‌های او بتوانم یک اسکریپت (ماکروی پایتون) را به افزونه‌ای برای لیبره‌آفیس تبدی</description>
+      <category>افزونه‌ها</category>
+    </item>
+    <item>
+      <title>نسخهٔ جدید بانک کلمات غلط فارسی</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/192.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/192.html</guid>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+      <description>مدتی پیش نسخهٔ جدیدی از بانک کلمات غلط فارسی را در اختیار توسعه‌دهندگان لیبره‌آفیس گذاشتم. امروز و هم‌زمان با انتشار لیبره‌آفیس ۲۵.۸.۱ کلمات اضافه‌شده هم در لیبره‌آفیس قرار گرفتند. علاوه بر کلماتِ جدید چندین کلمه را هم که به رسم‌الخط مرتبط بودند و غلط املایی قلمداد نمی‌شدند از بانک حذف کردم. با توجه به اصلاحاتِ صورت‌گرفته می‌شود گفت که الان این بانک در وضعیت</description>
+      <category>بومی‌سازی</category>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>نیم‌فاصله‌های کاذب</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/191.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/191.html</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+      <description>یکی از چالش‌های متون فارسی وجود نیم‌فاصله‌های کاذب است. ظاهری شبیه به نیم‌فاصله دارند، اما در حقیقت نویسه‌های دیگری هستند. این نویسه‌ها خصوصاً وقتی از یک سند به سند دیگری کپی می‌شوند، می‌توانند باعث نمایش نادرست متن، به‌هم‌ریختگی خطوط و مشکلاتی در جست‌وجوی محتوا شوند. در واژه‌پرداز لیبره‌آفیس با کمک عبارت‌های باقاعده می‌شود همهٔ آن‌ها را یافت، اما استفاده از</description>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>سند فارسی و قفل شدن لیبره‌آفیس</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/190.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/190.html</guid>
+      <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+      <description>ظاهراً و بر اساس این گزارش در نسخهٔ در حال توسعهٔ لیبره‌آفیس اگر سندی فارسی باشد و قالب (فرمت) فایل هم DOC باشد، لیبره‌آفیس در زمان باز کردن سند قفل می‌کند و عملاً نمی‌شود از آن استفاده کرد. مشکل کوچکی نیست، اما خوشبختانه برطرف شده و در نسخهٔ 25.8 لیبره‌آفیس وجود نخواهد داشت.</description>
+      <category>اِشکالات (باگ‌ها)</category>
+    </item>
+    <item>
+      <title>دردسرهای تراز</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/189.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/189.html</guid>
+      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
+      <description>وقتی در برنامه‌ای مثل لیبره‌آفیس متنی به فارسی یا عربی می‌نویسید، چنانکه می‌دانید این زبان‌ها از راست به چپ نوشته می‌شوند. اما گاهی اوقات لازم است که یک قسمت از متن مثلاً یک جملهٔ انگلیسی یا اعداد و فرمول‌های خاص را از چپ به راست بنویسید. این کار را می‌توانید با تغییر جهت نوشته انجام دهید. در اینجا متأسفانه مشکلی وجود دارد: وقتی قسمتی از یک سند فارسی را تنظی</description>
+      <category>اِشکالات (باگ‌ها)</category>
+    </item>
+    <item>
+      <title>فونت‌های اضافی!</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/188.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/188.html</guid>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <description>وقتی در برنامهٔ لیبره‌آفیس می‌خواهیم قلم (فونت) متن را عوض کنیم، یک فهرست بلندبالا از فونت‌ها باز می‌شود. گاهی این فهرست آن‌قدر شلوغ است که پیدا کردن فونت دلخواه سخت می‌شود. برای همین یکی از کاربران در سال ۲۰۱۵ میلادی (۱۳۹۳ شمسی) در اینجا پیشنهادی داد: «امکانی بگذارید که بشود بعضی فونت‌ها را از این فهرست پنهان کرد، بدون اینکه لازم باشد آن‌ها را از روی سیستم </description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>کند باز شدن فایل‌های حجیم مایکروسافت‌ورد</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/187.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/187.html</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+      <description>گزارش باگ شماره ۶۴۹۹۱ به یک مشکل قدیمی و ادامه‌دار در واژه‌پرداز لیبره‌آفیس اشاره دارد: کند باز شدن و عدم پاسخ‌گویی برنامه در زمان کار با فایل‌های DOC (فرمت قدیمی مایکروسافت‌ورد) که حجم بالایی دارند و حاوی متن راست به چپ (RTL) هستند. این مسئله ابتدا در سال ۲۰۱۳ (۱۳۹۲ جلالی) گزارش شد و نشان می‌داد که باز کردن یک فایل DOC خاص با محتوای فارسی یا عربی، چندین دقی</description>
+      <category>اِشکالات (باگ‌ها)</category>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>بنیاد اسناد</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/186.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/186.html</guid>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <description>بنیاد اسناد (The Document Foundation) یک سازمان غیرانتفاعی است که هدف آن ترویج و توسعهٔ نرم‌افزارهای آزاد و متن‌باز برای کار با اسناد است. این بنیاد در سال ۲۰۱۰ (۱۳۸۹ خورشیدی) توسط گروهی از اعضای جامعهٔ اپن‌آفیس تأسیس شد، اعضایی که نگران آیندهٔ این مجموعهٔ اداری پس از خریده شدن سان‌مایکروسیستمز توسط اوراکل بودند. هدف اصلی این بنیاد ایجاد یک مجموعهٔ اداری مست</description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>آلمان، پیش به سوی ODF</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/185.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/185.html</guid>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <description>دولت آلمان تصمیم گرفته است که از حالا تا پایان سال ۲۰۲۷ (کمتر از ۳ سال دیگر) در کلیهٔ بخش‌های دولتی خود، از فرمت ODF که یک فرمت باز و استاندارد است استفاده کند. دلیل این تصمیم این است که وقتی پرونده‌ها (فایل‌ها) در فرمت‌های انحصاری (بسته) ذخیره می‌شوند، مردم و نهادها برای خواندن یا ویرایش آن‌ها به نرم‌افزارهای خاصی (مانند مایکروسافت‌آفیس) وابسته می‌شوند، اما</description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>بهبود ردگیری تغییرات در لیبره‌آفیس</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/184.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/184.html</guid>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <description>یکی از ویژگی‌های واژه‌پرداز لیبره‌آفیس قابلیت ردگیری تغییرات (Track Change) در سند است. این قابلیت با همهٔ مفید بودنش یک مشکل مهم داشت: قبلاً، تنظیمات ردگیری تغییرات برای کل سند اعمال می‌شد. یعنی اگر یک نفر ردگیری تغییرات را روشن می‌کرد، تمام افرادی که روی آن سند کار می‌کردند، تغییراتشان ثبت می‌شد. این موضوع می‌توانست مشکل‌ساز باشد، به‌ویژه وقتی چند نفر به‌ص</description>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>جشن روز آزادی اسناد</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/183.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/183.html</guid>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <description>چرا روز آزادی اسناد اهمیت دارد؟ هر ساله، روز آزادی اسناد یادآور این ایدهٔ مهم و ارزشمند است که ما باید کنترل خود را بر داده‌هایمان حفظ کنیم. این کنترل شامل نحوهٔ ذخیره‌سازی، دسترسی، به‌اشتراک‌گذاری و حفظ قابلیت استفاده از داده‌ها در طول زمان است. در مرکز این مسئله، استانداردهای باز و فرمت‌هایی قرار دارند که بدون هیچ محدودیتی قابل خواندن، استفاده و توسعه هستن</description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>روز آزادی اسناد و لیبره‌آفیس</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/182.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/182.html</guid>
+      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
+      <description>چهارشنبه، ششم فروردین روز آزادی اسناد است و لیبره‌آفیس آن را جشن خواهد گرفت. در این روز، سه وبینار در ساعت‌های ۱۳ و ۱۸ و ۲۳ برگزار خواهد شد که در آن‌ها به تاریخچهٔ فرمت ODF و همچنین به اینکه چرا فرمت‌های استاندارد برای حاکمیت دیجیتال اهمیت به‌سزایی دارند، پرداخته خواهد شد. برای شرکت در وبینارها، می‌توانید به نشانی زیر متصل شوید: https://jitsi.documentfoundat</description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>حمایت آلمان از لیبره‌آفیس</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/181.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/181.html</guid>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <description>ایالت شلسویگ-هولشتاین در آلمان در حال انتقال ۳۰,۰۰۰ کامپیوتر از مایکروسافت‌آفیس به لیبره‌آفیس است تا از این طریق وابستگی خود به غول‌های فناوری غیراروپایی را کاهش دهد. این اقدام به بهبود حاکمیت دیجیتال، دسترسی عمومی به کدهای نرم‌افزاری و تشویق سایر ادارات عمومی به پیروی از این الگو کمک می‌کند. رئیس دفتر دولتی این ایالت نیز بر اهمیت استقلال فناوری و تأثیرگذاری</description>
+      <category>عمومی</category>
+    </item>
+    <item>
+      <title>حذف فاصله‌های اضافه</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/180.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/180.html</guid>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <description>به‌طور کلی در هیچ‌جای اسناد متنی (اسنادی که در واژه‌پردازها آماده شده‌اند) نباید بین دو واژه بیشتر از یک فاصله (اسپیس) وجود داشته باشد و فاصله‌های بیشتر گذشته از آنکه نشانهٔ شلختگی حروف‌چین است، سند را هم از زیبایی و شکیل بودنش درمی‌آورد. نکته: برای درج فاصله‌های بیشتر در جاهای مختلف (مثلاً شعر) باید از راهکارهای دقیق‌تر و بی‌دردسرتری استفاده کرد. اما حالا ا</description>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>تصحیح کارآمدتر کلمات فارسی</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/179.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/179.html</guid>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      <description>یازده سال قبل با اشتیاق و پیگیری‌های زیاد و با حمایت‌هایی که علاقه‌مندان نرم‌افزار آزاد کردند زبان فارسی و بانکی غنی از واژه‌های فارسی به بخش تصحیح خودکار کلمات در مجموعه‌نرم‌افزار اداری اپن‌آفیس اضافه شد و بعدتر در لیبره‌آفیس بهینه و تثبیت شد. پس از وقفه‌ای طولانی، با کمک‌های فنی یک دوست آن بانک حجیم را اصلاح و بهینه کرده‌ام و در اختیار تیم توسعه‌دهندهٔ لیب</description>
+      <category>عمومی</category>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>درون‌ریزی و برون‌ریزی کلمات</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/178.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/178.html</guid>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <description>گمان نکنم در این عالَم انسان عاقلی پیدا بشود که دلش بخواهد کاری را که یک بار انجام شده و به سرانجام رسیده دوباره از همان اولش شروع بکند. اما این چه ربطی به نرم‌افزار آزاد لیبره‌آفیس دارد؟ یکی از قابلیت‌های مفید لیبره‌آفیس قابلیت تصحیح خودکار کلمات است. هر کاربری بسته به نیاز خود در طول زمان مجموعه‌ای از کلمات را در پایگاه دادهٔ این بخش از برنامه جمع‌آوری می‌</description>
+      <category>ضعف‌های لیبره‌آفیس</category>
+    </item>
+    <item>
+      <title>توابع مهم در لیبره‌آفیس ۲۴.۸</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/177.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/177.html</guid>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <description>نسخهٔ ۲۴.۸ لیبره‌آفیس تقریباً ۲ ماه دیگر منتشر می‌شود. به‌عنوان کاربری که بعد از واژه‌پرداز بیشترین استفاده را از صفحه‌گستردهٔ لیبره‌آفیس دارد خوشحالم که در این نسخه چند تابع (Function) مهم اضافه شده‌اند: یکی تابع XLOOKUP و دیگری XMATCH که هنوز نیامده راهنمای برخطشان هم آمادده شده است! علاوه بر این، توابع FILTER , RANDARRAY , SEQUENCE , SORT , SORTBY , UNIQU</description>
+      <category>صفحه‌گسترده</category>
+    </item>
+    <item>
+      <title>لیبره‌آفیس و دردسرهای فونت‌های برنارایانه</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/176.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/176.html</guid>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <description>گاهی انسان آرزو می‌کند که ای‌کاش این قدرت را داشت که چیزی را از بیخ‌وبن از بین ببرد! حالا حکایت قلم‌های (فونت‌های) برنارایانه است، همان فونت‌هایی که با حرف B آغاز می‌شوند و در میان کاربران به فونت‌های سری B شناخته می‌شوند. در طول این سال‌ها زبان من مو درآورد که آقا! اگر به نمایش صحیح فارسی علاقه‌مند هستید، این فونت‌ها را فراموش کنید و از نسخهٔ اصلاح‌شدهٔ آن‌</description>
+      <category>اِشکالات (باگ‌ها)</category>
+    </item>
+    <item>
+      <title>مدیریت ساده‌تر نظرات</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/175.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/175.html</guid>
+      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+      <description>چنانچه ویرایش یک کتاب را به شما سپرده باشند، اگر بخواهید اصلاحات مد نظرتان را به نویسنده پیشنهاد کنید، منطقی‌ترین ابرازی که در دست دارید ابزار نظرات یا همان Comments است. این نظرات در حاشیهٔ سند نمایش داده می‌شوند و اگر تعدادشان زیاد بشوند، مدیریت آن‌ها برای شما که ویراستار آن کتاب هستید و حتی برای نویسنده که قرار است پس از پایان کارتان اصلاحات شما را بررسی </description>
+      <category>واژه‌پرداز</category>
+    </item>
+    <item>
+      <title>تابع بشمار اگر (قسمت دوم)</title>
+      <link>https://afshin-ir.github.io/libreoffice/blog/174.html</link>
+      <guid isPermaLink="true">https://afshin-ir.github.io/libreoffice/blog/174.html</guid>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <description>در آموزش قبل گفتیم که چطور با استفاده از تابع COUNTIF در یک سلول یا در محدوده‌ای از سلول‌ها اعداد مدنظرمان را شمارش کنیم و در این آموزش می‌خواهیم به‌جای شمارش اعداد، کلمات مدنظرمان را شمارش کنیم. مثال زیر تعداد دفعاتی را که کلمهٔ apple در محدودهٔ سلول‌های A1 تا A10 وارد شده است می‌شمارد: =COUNTIF(A:A10;D1) مثال زیر ترکیبی از اعداد و متن را دارد. اگر می‌خواهی</description>
+      <category>صفحه‌گسترده</category>
+    </item>
+  </channel>
+</rss>

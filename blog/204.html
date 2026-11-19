@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>افزونهٔ توابع تاریخ هجری شمسی برای لیبره‌آفیس کلسک</title>
+<meta name="description" content="افزونهٔ رایگان توابع تاریخ هجری شمسی برای لیبره‌آفیس کلسک؛ با ۲۵ تابع برای تبدیل و محاسبهٔ تاریخ، روزهای کاری، آخرهفته و تعطیلات.">
+<meta name="keywords" content="توابع تاریخ هجری شمسی، افزونهٔ لیبره‌آفیس کلسک، تقویم جلالی، توابع شمسی در Calc">
+<link rel="stylesheet" href="/libreoffice/assets/style.css?v=20261119-2200">
+<link rel="icon" href="https://blog.documentfoundation.org/wp-content/uploads/2025/12/cropped-lo-square-32x32.jpg" type="image/jpeg" sizes="32x32">
+<script src="/libreoffice/assets/site.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="/libreoffice/"><span class="brand-mark">L</span><span><b>لیبره‌آفیس فارسی</b><small>یادداشت‌ها، آموزش‌ها و تجربه‌ها</small></span></a><nav><a href="/libreoffice/">خانه</a><a href="/libreoffice/blog/">همهٔ مطالب</a></nav></div></header>
+<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست نوشته‌ها</a><div class="eyebrow">معرفی افزونه</div><h1>افزونهٔ توابع تاریخ هجری شمسی برای لیبره‌آفیس کلسک</h1><div class="article-meta"><time datetime="2026-11-19">۱۴۰۵/۸/۲۸</time><span>نویسنده: افشین فلاطونی</span></div><div><span class="tag">افزونه‌ها</span><span class="tag">صفحه‌گسترده</span></div>
+<div class="article-content"><p>اگر در صفحه‌گستردهٔ لیبره‌آفیس با تاریخ‌های هجری شمسی سروکار دارید، افزونهٔ <strong>توابع تاریخ هجری شمسی برای LibreOffice Calc</strong> مجموعه‌ای از ابزارهای آماده را در اختیار شما می‌گذارد. این افزونه ۲۵ تابع دارد و می‌توان از آن‌ها در فرمول‌های Calc استفاده کرد.</p>
+<h2>با این افزونه چه کارهایی می‌شود کرد؟</h2>
+<ul>
+<li>اجزای تاریخ را جدا کرد، نام روز هفته و ماه را به دست آورد و معتبر بودن تاریخ را سنجید.</li>
+<li>تاریخ شمسی را به تاریخ قابل‌استفاده در Calc تبدیل کرد و تاریخ Calc را به تاریخ شمسی برگرداند.</li>
+<li>تاریخ امروز را گرفت، روز یا ماهی به تاریخی افزود و فاصلهٔ میان دو تاریخ را محاسبه کرد.</li>
+<li>روزهای کاری را با تعیین آخرهفته و فهرستی از تعطیلات محاسبه کرد.</li>
+</ul>
+<h2>چند نمونه</h2>
+<p>بیشتر تابع‌ها تاریخ را به صورت عدد <code dir="ltr">YYYYMMDD</code> می‌گیرند؛ مثلاً <code dir="ltr">14050810</code> برابر با ۱۰ آبان ۱۴۰۵ است. این عدد، شماره‌تاریخ داخلی Calc نیست.</p>
+<pre dir="ltr"><code>=JALALI_TODAY()
+=JALALI_DATE(14050810)
+=JALALI_ADDDAYS(14050810;1)
+=JALALI_WORKDAY(14050810;5;16;A2:A4)</code></pre>
+<p>در نمونهٔ آخر، روز آغاز هفتهٔ کاری با کد <code dir="ltr">16</code> طوری تعیین شده که فقط جمعه آخرهفته باشد و تعطیلات از محدودهٔ <code dir="ltr">A2:A4</code> خوانده شود. جداکنندهٔ آرگومان‌ها ممکن است با توجه به تنظیمات منطقه‌ای Calc متفاوت باشد.</p>
+<h2>دریافت و نصب</h2>
+<p>فایل نصب <code dir="ltr">JalaliCalc.oxt</code> را از <a href="https://github.com/afshin-ir/jalali/releases/latest">آخرین نسخهٔ منتشرشده در گیت‌هاب</a> دریافت کنید. سپس در لیبره‌آفیس از مسیر <bdi dir="ltr">Tools → Extension Manager</bdi> گزینهٔ <bdi dir="ltr">Add</bdi> را بزنید، فایل را انتخاب کنید و برنامه را دوباره اجرا کنید.</p>
+<p>صفحهٔ افزونه در وب‌سایت رسمی افزونه‌های لیبره‌آفیس: <a href="https://extensions.libreoffice.org/en/extensions/show/99733">توابع تاریخ هجری شمسی برای Calc</a>.</p>
+<p>فهرست کامل توابع، نمونه‌های بیشتر و توضیح محدودیت‌های محاسبه را در <a href="https://github.com/afshin-ir/jalali">مخزن افزونه در گیت‌هاب</a> بخوانید.</p>
+<p>افشین فلاطونی، ۱۴۰۵/۸/۲۸</p></div><nav class="post-neighbors" aria-label="پیمایش بین نوشته‌ها"><a class="post-neighbor older" href="/libreoffice/blog/203.html"><span class="neighbor-direction">نوشتهٔ قدیمی‌تر</span><strong>دستورخط، افزونه‌ای برای رعایت رسم‌الخط مرجّح فرهنگستان</strong></a></nav></article></main>
+<footer class="site-footer"><a href="/libreoffice/">لیبره‌آفیس فارسی</a><span>بازنشر استاتیکیِ نوشته‌های وبلاگ</span></footer>
+</body></html>

@@ -30,6 +30,8 @@
 
 - [صفحهٔ اصلی](index.html)
 - [دربارهٔ لیبره‌آفیس](https://afshin-ir.github.io/libreoffice/who-are-we/)
+- [راهنمایی از جامعه](https://afshin-ir.github.io/libreoffice/get-help/)
+- [مشارکت در بهبود لیبره‌آفیس](https://afshin-ir.github.io/libreoffice/improve-it/)
 - [همهٔ نوشته‌های وبلاگ](blog/index.html)
 - [خوراک RSS](blog/feed.xml)
 - [مخزن پروژه در گیت‌هاب](https://github.com/afshin-ir/libreoffice)

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تکرار سربرگ‌ها در زمان چاپ</title>
+<meta name="description" content="در صفحه‌گسترده‌ها، سطرهای ابتدایی یک جدول نقش «سربرگ» را دارند و معمولاً در آن‌ها عنوان ستون‌ها یا توضیحات اصلی داده‌ها قرار می‌گیرد. زمانی که از داده‌های جدول چاپ (پرینت) می‌گیرید، اگر جدولی که باید چاپ شود بیش از یک صف">
+<link rel="stylesheet" href="/libreoffice/assets/style.css">
+<link rel="icon" href="https://blog.documentfoundation.org/wp-content/uploads/2025/12/cropped-lo-square-32x32.jpg" type="image/jpeg" sizes="32x32">
+<script src="/libreoffice/assets/site.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="/libreoffice/"><span class="brand-mark">L</span><span><b>لیبره‌آفیس فارسی</b><small>یادداشت‌ها، آموزش‌ها و تجربه‌ها</small></span></a><nav><a href="/libreoffice/">خانه</a><a href="/libreoffice/blog/">همهٔ مطالب</a></nav></div></header>
+<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>تکرار سربرگ‌ها در زمان چاپ</h1><div class="article-meta"><time>2026-01-07</time><span>نویسنده: afshin</span></div><div><span class="tag">صفحه‌گسترده</span></div><div class="article-content">در صفحه‌گسترده‌ها، سطرهای ابتدایی یک جدول نقش «سربرگ» را دارند و معمولاً در آن‌ها عنوان ستون‌ها یا توضیحات اصلی داده‌ها قرار می‌گیرد. زمانی که از داده‌های جدول چاپ (پرینت) می‌گیرید، اگر جدولی که باید چاپ شود بیش از یک صفحه باشد ، نبودِن این سربرگ‌ها در صفحات بعدی، خواندن و درک اطلاعات را دشوار می‌کند.
+
+برنامهٔ صفحه‌گستردهٔ لیبره‌آفیس در تنظیمات چاپ (پرینت)، امکان تکرار خودکار یک یا چند سطر را در تمام صفحات فراهم کرده است. با این قابلیت، سربرگ جدول در هر صفحه دوباره پرینت گرفته می‌شود.
+برای این کار به مسیر زیر بروید:
+<p dir="ltr">Format→Print Range→Edit</p>
+<img class="aligncenter size-full wp-image-2901" title="تنظیمات چاپ سربرگ‌ها" src="https://libreoffice.ir/blog/wp-content/uploads/2026/01/2026-01-07-12-43.jpg" alt="تنظیمات چاپ سربرگ‌ها" width="650" height="331" data-popupalt-original-title="null" />
+
+در پنجرهٔ بازشده و در قسمت Rows to repeat اگر می‌خواهید فقط سطر اول در هر صفحه تکرار شود، مقدار زیر را وارد کنید:
+<p dir="ltr">$1</p>
+و اگر می‌خواهید چند سطر ابتدایی (برای مثال دو سطر اول) تکرار شوند، از این قالب استفاده کنید:
+<p dir="ltr">$1:$2</p>
+در صورت نیاز، می‌توانید به همین روش و از بخش Columns to repeat، سربرگ ستون‌ها را هم برای تکرار شدن مشخص کنید.
+
+پس از اعمال این تنظیم، سطرهای انتخاب‌شده در همهٔ صفحات چاپ‌شده نمایش داده می‌شوند و خروجی نهایی، ظاهری منظم‌تر و خواناتر خواهد داشت؛ بدون اینکه لازم باشد سربرگ‌ها در هر صفحه به‌صورت دستی تکرار شوند.
+<div id="translate-it-host-iframe"></div></div></article></main>
+<footer class="site-footer"><a href="/libreoffice/">لیبره‌آفیس فارسی</a><span>بازنشر استاتیکیِ نوشته‌های وبلاگ</span></footer>
+</body></html>

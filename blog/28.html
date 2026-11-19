@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>جست‌وجوی کلمات فارسی با کمک عبارت‌های باقاعده</title>
+<meta name="description" content="اگر بخواهید در متن یک سند فارسی همهٔ کلماتی را که تعداد نویسه‌هایشان (کاراکترهایشان، حروفشان) 5 نویسه است پیدا کنید، باید از عبارت‌های باقاعده کمک بگیرید. ابتدا Ctrl+H را بفشارید تا پنجرهٔ Find &amp; Replace باز شود. در باکس">
+<link rel="stylesheet" href="/libreoffice/assets/style.css">
+<link rel="icon" href="https://blog.documentfoundation.org/wp-content/uploads/2025/12/cropped-lo-square-32x32.jpg" type="image/jpeg" sizes="32x32">
+<script src="/libreoffice/assets/site.js" defer></script>
+</head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="/libreoffice/"><span class="brand-mark">L</span><span><b>لیبره‌آفیس فارسی</b><small>یادداشت‌ها، آموزش‌ها و تجربه‌ها</small></span></a><nav><a href="/libreoffice/">خانه</a><a href="/libreoffice/blog/">همهٔ مطالب</a></nav></div></header>
+<main><article class="article"><a class="back-link" href="/libreoffice/blog/">→ بازگشت به فهرست مطالب</a><div class="eyebrow">مقالهٔ آموزشی</div><h1>جست‌وجوی کلمات فارسی با کمک عبارت‌های باقاعده</h1><div class="article-meta"><time>2021-03-26</time><span>نویسنده: afshin</span></div><div><span class="tag">عبارت‌های باقاعده</span></div><div class="article-content"><!-- wp:paragraph -->
+<p>اگر بخواهید در متن یک سند <strong>فارسی</strong> همهٔ کلماتی را که تعداد نویسه‌هایشان (کاراکترهایشان، حروفشان) 5 نویسه است پیدا کنید، باید از عبارت‌های باقاعده کمک بگیرید.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ابتدا Ctrl+H را بفشارید تا پنجرهٔ Find &amp; Replace باز شود.<br />در باکسِ Find عبارت زیر را وارد کنید:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"left","direction":"ltr"} -->
+<p class="has-text-align-left" dir="ltr"><code>\b([ا-ی]{5})\b</code></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>چک‌باکس Regular Expressions را تیک بزنید و در انتها دکمهٔ Find All را بفشارید. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"align":"center","id":1046,"sizeSlug":"large","linkDestination":"media"} -->
+<div class="wp-block-image"><figure class="aligncenter size-large"><a href="https://libreoffice.ir/blog/wp-content/uploads/2021/03/Screenshot-from-2021-03-26-13-29-38.png"><img src="https://libreoffice.ir/blog/wp-content/uploads/2021/03/Screenshot-from-2021-03-26-13-29-38.png" alt="جست‌وجوی کلمات پنج حرفی" class="wp-image-1046"/></a></figure></div>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>حالا اگر بخواهید همهٔ کلماتی که تعداد نویسه‌هایشان <strong>حداقل</strong> 5 نویسه است پیدا کنید، باید از این عبارت باقاعده کمک بگیرید:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"left","direction":"ltr"} -->
+<p class="has-text-align-left" dir="ltr"><code>[ا-ی]{5,}</code></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>در این حالت علاوه بر کلمات پنج حرفی، کلماتی که تعداد نویسه‌هایشان بیش از 5 نویسه باشد نیز پیدا می‌شوند. این حالت مناسب زمانی است که ندانید دقیقاً باید دنبال چند نویسه بگردید. </p>
+<!-- /wp:paragraph --></div></article></main>
+<footer class="site-footer"><a href="/libreoffice/">لیبره‌آفیس فارسی</a><span>بازنشر استاتیکیِ نوشته‌های وبلاگ</span></footer>
+</body></html>

@@ -25,10 +25,8 @@ body.home-page {
 .home-page li.hero-impress::after { background-image: url("https://www.libreoffice.org/media/libo-impress.svg"); }
 .home-page li.hero-calc::after { background-image: url("https://www.libreoffice.org/media/libo-calc.svg"); }
 .home-page li.hero-writer::after { background-image: url("https://www.libreoffice.org/media/libo-writer.svg"); }
-.home-page #community_map { direction: ltr; }
-.home-page #community_map .leaflet-control-zoom { display: none; }
-.home-page #community_map .leaflet-marker-icon,
-.home-page #community_map .leaflet-marker-shadow { pointer-events: none; }
+.home-page #map_container .community-map-image { display: block; width: 100%; max-width: 530px; height: auto; align-self: center; }
+.home-page #map_container figcaption { margin-top: 0.8rem; text-align: center; font-size: var(--scale-3); }
 @supports not (grid-template-columns: subgrid) {
     .home-page main.home-main { grid-template-columns: 1fr; }
     .home-page main.home-main > .full-width { grid-column: 1; }

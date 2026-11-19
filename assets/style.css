@@ -3,8 +3,6 @@
 .article-content,.comment-body{text-align:justify;text-justify:inter-word}.article-content code,.article-content pre{direction:ltr;unicode-bidi:isolate;font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace}.lo-path{direction:ltr;unicode-bidi:isolate;font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;font-size:.92em;background:#f0f5f2;color:#203c31;border-radius:.35em;padding:.04em .28em}
 /* Persian homepage closely follows the official LibreOffice layout */
 .home-page{background-color:#fff;background-image:repeating-linear-gradient(135deg,#00000002 0,#00000002 1px,transparent 1px,transparent 22px);color:#444;line-height:1.65}
-.home-page .language-bar{height:28px;background:#e8e8e8;border-bottom:1px solid #ddd;display:flex;align-items:center;justify-content:center;gap:5px;font-size:11px;color:#555}
-.home-page .language-bar select{font:inherit;color:#333;background:#fff;border:1px solid #bbb;height:19px;min-width:112px;padding:0 3px}
 .home-header{background:#fff;border-bottom:1px solid #e7e7e7;position:relative;z-index:2}
 .home-nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}
 .wrap{max-width:1160px;margin-left:auto;margin-right:auto;padding-left:24px;padding-right:24px}

@@ -1,0 +1,35 @@
+/* Home page adaptations: keep LibreOffice's source layout and colors, restore its media URLs. */
+body.home-page {
+    background-image: url("https://www.libreoffice.org/media/subtle-prism.svg");
+}
+.home-page main.home-main {
+    display: grid;
+    grid-column: fullWidth;
+    grid-template-columns: subgrid;
+    align-content: start;
+    min-width: 0;
+}
+.home-page .nav-main .search-button {
+    background-image: url("https://www.libreoffice.org/media/searchicon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.home-page .hero-orbit li::after {
+    background-size: contain;
+    background-position: center;
+}
+.home-page li.hero-math::after { background-image: url("https://www.libreoffice.org/media/libo-math.svg"); }
+.home-page li.hero-base::after { background-image: url("https://www.libreoffice.org/media/libo-base.svg"); }
+.home-page li.hero-draw::after { background-image: url("https://www.libreoffice.org/media/libo-draw.svg"); }
+.home-page li.hero-impress::after { background-image: url("https://www.libreoffice.org/media/libo-impress.svg"); }
+.home-page li.hero-calc::after { background-image: url("https://www.libreoffice.org/media/libo-calc.svg"); }
+.home-page li.hero-writer::after { background-image: url("https://www.libreoffice.org/media/libo-writer.svg"); }
+.home-page #community_map { direction: ltr; }
+.home-page #community_map .leaflet-control-zoom { display: none; }
+.home-page #community_map .leaflet-marker-icon,
+.home-page #community_map .leaflet-marker-shadow { pointer-events: none; }
+@supports not (grid-template-columns: subgrid) {
+    .home-page main.home-main { grid-template-columns: 1fr; }
+    .home-page main.home-main > .full-width { grid-column: 1; }
+}

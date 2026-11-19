@@ -1,4 +1,4 @@
-Promise.all(Array.from({length:21},(_,i)=>String(i+1).padStart(2,'0')).map(n=>fetch(`/libreoffice/blog/search-index-${n}.json?v=20261119-1705`,{cache:"no-store"}).then(r=>r.json()))).then(chunks=>{
+Promise.all(Array.from({length:21},(_,i)=>String(i+1).padStart(2,'0')).map(n=>fetch(`/libreoffice/blog/search-index-${n}.json?v=20261119-2050`,{cache:"no-store"}).then(r=>r.json()))).then(chunks=>{
   const posts=chunks.flat().sort((a,b)=>b.date.localeCompare(a.date));
   const q=document.querySelector('#q'),grid=document.querySelector('#cards'),none=document.querySelector('.no-results'),categoryList=document.querySelector('#category-list'),pager=document.querySelector('#pagination');
   const params=new URLSearchParams(location.search),state={category:params.get('category')||'',page:Math.max(1,parseInt(params.get('page')||'1',10)||1)};
